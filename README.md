@@ -21,8 +21,8 @@
 
 - **Timer Preciso:** Lógica de contagem regressiva em minutos e segundos.
 - **Modos de Foco e Pausa:**
-  - 🍅 **Foco:** 25 minutos (Tema com detalhes em vermelho/rosa).
-  - ☕ **Pausa:** 5 minutos (Tema com detalhes em verde/teal).
+  - 🍅 **Foco:** 25 minutos;
+  - ☕ **Pausa:** 5 minutos;
 - **Controles Completos:** Iniciar, Pausar e Reiniciar o ciclo.
 - **Feedback Sonoro:** Alerta de áudio (`alarm.mp3`) reproduzido automaticamente ao fim do tempo.
 - **Título Dinâmico:** O tempo restante aparece na aba do navegador para acompanhamento multitarefa.
