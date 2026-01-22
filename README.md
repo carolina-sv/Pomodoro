@@ -1,16 +1,51 @@
-# React + Vite
+# 🍅 React Pomodoro Timer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Um cronômetro de foco moderno e responsivo, construído para auxiliar na produtividade utilizando a técnica Pomodoro.
 
-Currently, two official plugins are available:
+![Badge Netlify](https://img.shields.io/badge/Netlify-Deployed-success)
+![Badge React](https://img.shields.io/badge/React-18-blue)
+![Badge Vite](https://img.shields.io/badge/Vite-Fast-purple)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Demonstração
+👉 **[Acesse o projeto online aqui](https://effortless-malasada-1355af.netlify.app)**
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📸 Preview
 
-## Expanding the ESLint configuration
+<img width="720" height="515" alt="preview" src="https://github.com/user-attachments/assets/5aaa731d-16a6-45ff-9296-2f2e59a52008" />
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Funcionalidades
+
+- **Timer Preciso:** Lógica de contagem regressiva em minutos e segundos.
+- **Modos de Foco e Pausa:**
+  - 🍅 **Foco:** 25 minutos (Tema com detalhes em vermelho/rosa).
+  - ☕ **Pausa:** 5 minutos (Tema com detalhes em verde/teal).
+- **Controles Completos:** Iniciar, Pausar e Reiniciar o ciclo.
+- **Feedback Sonoro:** Alerta de áudio (`alarm.mp3`) reproduzido automaticamente ao fim do tempo.
+- **Título Dinâmico:** O tempo restante aparece na aba do navegador para acompanhamento multitarefa.
+- **Interface Moderna:** Design estilo "Glassmorphism" com botões arredondados e responsividade.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+Este projeto foi desenvolvido com as seguintes tecnologias:
+
+- **[React](https://reactjs.org/):** Biblioteca principal para construção da interface.
+- **[Vite](https://vitejs.dev/):** Ferramenta de build rápida e leve.
+- **CSS3:** Estilização moderna com Flexbox, Gradientes e Variáveis.
+- **Hooks:** Uso intensivo de `useState` e `useEffect` para gerenciamento de estado e ciclo de vida.
+- **Netlify:** Plataforma utilizada para Deploy e hospedagem.
+
+---
+
+## 📦 Como rodar localmente
+
+Se quiser clonar e rodar este projeto no seu computador:
+
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/carolina-sv/pomodoro.git
