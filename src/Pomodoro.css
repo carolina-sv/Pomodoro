@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+body {
+  background-color: #063f74; /* Fundo azul escuro */
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.pomodoro-card {
+  background-color: #1e293b;
+  padding: 3rem;
+  border-radius: 40px; /* Borda do cartão bem redonda */
+  text-align: center;
+  width: 100%;
+  max-width: 380px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+}
+
+h1 {
+  font-size: 1rem;
+  letter-spacing: 2px;
+  color: #94a3b8;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.timer-display {
+  font-size: 6rem;
+  font-weight: 900; /* Negrito PESADO */
+  margin: 10px 0 30px 0;
+  color: #fff;
+  line-height: 1;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+/* --- A MÁGICA DOS BOTÕES REDONDOS --- */
+.btn {
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 18px 0; /* Padding vertical */
+  width: 140px;    /* Largura fixa para ficarem iguais */
+  border: none;
+  cursor: pointer;
+  border-radius: 50px; /* <--- ISSO DEIXA ELES REDONDINHOS */
+  transition: transform 0.1s, filter 0.2s;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+.btn-primary {
+  background-color: #6366f1; /* Roxo */
+  color: white;
+  box-shadow: 0 5px 15px rgba(99, 102, 241, 0.4);
+}
+
+.btn-primary:hover {
+  filter: brightness(1.1);
+}
+
+.btn-secondary {
+  background-color: #334155; /* Cinza */
+  color: #e2e8f0;
+}
+
+.btn-secondary:hover {
+  filter: brightness(1.2);
+}
+
+/* O botão de baixo com fundo visível */
+.btn-mode {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #94a3b8;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 12px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  width: 100%;
+  margin-top: 5px;
+  transition: all 0.2s;
+}
+
+.btn-mode:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.3);
+}
